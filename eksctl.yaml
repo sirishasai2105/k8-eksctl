@@ -1,0 +1,8 @@
+metadata:
+  name: expense-1
+  region: us-east-1
+managednodeGroups:
+  - name: node-1
+    instanceType: m5.large
+    desiredCapacity: 3
+    spot: true 
